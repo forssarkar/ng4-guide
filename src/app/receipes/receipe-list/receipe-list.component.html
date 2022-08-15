@@ -1,6 +1,26 @@
-<p>receipe-item</p>
 
-<!---
-<app-receipe-item></app-receipe-item>
--->    
+<div class="row">
+    <div class="col-xs-12">
+      <button class="btn btn-success">New Recipe</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        <a href="#" class="list-group-item clearfix">
+        <div class="pull-left">
+            <h4 class="list-group-item-heading">{{receipes[0].name}}</h4>
+            <p class="list-group-item-text">{{receipes[0].description}}</p>
+        </div>
+        <span class="pull-right">
+            <img
+                [src]="receipes[0].imagePath"
+                alt="{{receipes[0].name}}"
+                class="img-responsive"
+                style="max-height: 50px;">
+        </span>
+        </a>
+    </div>
+</div>
+        <app-receipe-item></app-receipe-item>
+    
 
