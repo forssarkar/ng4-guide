@@ -1,5 +1,5 @@
-a. Adding Nav Bar
-  --- Refer App.html 
-b. Creating Receipe Model 
-   --- Added receipe.model.ts file for record structure of individual record
-c. Adding content in Receips Component  -- refer recepe-list.component.html
+a. Outputting List of Receipe using ngFor
+  --- Refer recepe-list.component.html
+b. Displaying Receipe Details
+   --- Refer receipe-detail.component.html
+c. Creation of Shopping List Component  -- refer Shopping List component , Shared Folder for Model
